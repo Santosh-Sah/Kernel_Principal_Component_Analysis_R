@@ -1,0 +1,5 @@
+source("KernelPrincipalComponentAnalysisUtils.R")
+
+kernelPrincipalComponentAnalysisDatasetList <- importKernelPrincipalComponentAnalysisDataset("Kernel_Principal_Component_Analysis_Social_Network_Ads.csv")
+
+saveTrainingAndTestingDataset(kernelPrincipalComponentAnalysisDatasetList[[1]], kernelPrincipalComponentAnalysisDatasetList[[2]])
